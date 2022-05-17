@@ -18,7 +18,7 @@ I reduced the dimensions of the `X` DataFrame down to three principal components
 I performed the following tasks:
 
 1. Created an Elbow Curve to find the best value for `k` using the `pcs_df` DataFrame.
-![elbowcurve](C:\Users\mokan\Fintech_class\unit13-challenge\elbow_curve.png)
+see (images folder)
 
 2. Once you define the best value for `k`, run the `Kmeans` algorithm to predict the `k` clusters for the cryptocurrencies data. Use the `pcs_df` to run the `KMeans` algorithm.
 
@@ -29,7 +29,6 @@ I performed the following tasks:
 In this section, I creted some data visualization to present the final results. Perform the following tasks:
 
 1. Create a scatter plot using `hvplot.scatter`, to present the clustered data about cryptocurrencies having `x="TotalCoinsMined"` and `y="TotalCoinSupply"` to contrast the number of available coins versus the total number of mined coins. Use the `hover_cols=["CoinName"]` parameter to include the cryptocurrency name on each data point.
-
-![scatter_plot](C:\Users\mokan\Fintech_class\unit13-challenge\scatter_plot.png)
+(see Images folder)
 
 2. Use `hvplot.table` to create a data table with all the current tradable cryptocurrencies. The table should have the following columns: `"CoinName", "Algorithm", "ProofType", "TotalCoinSupply", "TotalCoinsMined", "Class"`
